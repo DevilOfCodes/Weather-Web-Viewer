@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ city }} Weather Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="cityname"><mark>{{ city }}</mark><span class="icon">{{ symbol }}</span></h1><h1> Weather Report</h1>
+
+    <div class="info">
+    <p>Temperature: {{ temp }}°C</p>
+    <p>Wind Speed: {{ wind_speed }} m/s</p>
+    <p>Weather: {{ weather_description }}</p>
+    <p>Recommendation: {{ recommendation }}</p>
+    <p>Warning: {{ warning }}</p>
+    </div>
+    <div class="Back">
+      <a href="/">Back to Homepage</a>
+    </div>
+    
+  </body>
+</html>

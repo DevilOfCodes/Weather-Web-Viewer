@@ -1,0 +1,131 @@
+/* styles for index.html */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'REM', sans-serif;
+  }
+  
+  /* h1 {
+    color: #008080;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+  } */
+
+  
+  .appname{
+    color: #008080;
+    font-size: 10.5rem;
+    text-align: center;
+    margin-top: 17rem;
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  label {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #008080;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 2.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    width: 48rem;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 2.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #008080;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 3rem
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005f5f;
+  }
+  
+  /* styles for weather.html */
+  
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #008080;
+    font-size: 6.5rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+
+  #cityname{
+    color: #008080;
+    font-size: 6.5rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .info{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1rem;
+  }
+
+
+  p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .recommendation {
+    color: #008080;
+    font-weight: bold;
+  }
+  
+  .warning {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  .Back{
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  a {
+    padding: 0.5rem 1rem;
+    font-size: 2.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #008080;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 3rem;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #005f5f;
+
+  }
